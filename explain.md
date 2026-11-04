@@ -10,7 +10,7 @@ Markdown转Word粘贴工具 - 技术实现文档
 无构建过程：直接使用，无需编译
 CDN依赖：marked.js通过CDN加载
 📁 文件结构
-transformer.html
+index.html
 ├── HTML结构
 ├── CSS样式（内联）
 ├── JavaScript功能（内联）
@@ -175,7 +175,7 @@ function test() {
 
 ### 1. 功能扩展
 - **主题切换**：支持多种预览主题
-- **导出功能**：直接导出为.docx文件
+- **导出功能**：直接导出为 .docx 文件（尚未实现；当前只支持复制后粘贴到 Word）
 - **文件上传**：支持上传.md文件
 
 ### 2. 技术升级
